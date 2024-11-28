@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Furore";
+  src: url("../fonts/Furore.eot");
+  src: local("Furore"), url("../fonts/Furore.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Furore.woff2") format("woff2"), url("../fonts/Furore.woff") format("woff"),
+    url("../fonts/Furore.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-size: 12px;
+  font-family: "Furore", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  @apply px-4;
+}
+
+@media screen and (min-width: 639px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  html {
+    font-size: 16px;
+  }
+}
